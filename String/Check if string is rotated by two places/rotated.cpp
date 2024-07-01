@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
-public:
+ public:
   bool isRotated(string str1, string str2) {
     if (str1.length() != str2.length()) {
       return false;

@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
-public:
+ public:
   bool isAnagram(string a, string b) {
     int len1 = a.length();
     int len2 = b.length();

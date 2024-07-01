@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
-public:
+ public:
   int romanToDecimal(string &str) {
     unordered_map<char, int> num;
     num['I'] = 1;

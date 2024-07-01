@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
-public:
+ public:
   string reverseWords(string S) {
     int i = S.length() - 1;
     string ans;

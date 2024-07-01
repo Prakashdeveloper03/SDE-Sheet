@@ -5,12 +5,10 @@ int strstr(string s, string x) {
   for (int i = 0; i < s.length(); i++) {
     if (s[i] == x[0]) {
       ans = i, t = 1;
-      if (t == x.length())
-        return ans;
+      if (t == x.length()) return ans;
       while (t < x.length()) {
         if (s[i + t] == x[t++]) {
-          if (t == x.length())
-            return ans;
+          if (t == x.length()) return ans;
         } else
           break;
       }

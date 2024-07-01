@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
-public:
+ public:
   int atoi(string str) {
     int neg = 1;
     int i = 0;
