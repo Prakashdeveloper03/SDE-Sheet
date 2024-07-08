@@ -6,6 +6,7 @@ file(GLOB_RECURSE source_files
     "Hashing/**/*.cpp"
     "Searching and Sorting/**/*.cpp"
     "String/**/*.cpp"
+    "Stack and Queue/**/*.cpp"
 )
 
 add_custom_target(check_compile ALL
